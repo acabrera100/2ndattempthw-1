@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Clicker+Script");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+.navlinks {
+  display: flex;
+}
+
+.subBar {
+  display: flex;
+  margin-left: 37%;
+}
+
+.iLinks {
+  color: #001049;
+}
+
+.leftCorner {
+  padding-left: 17%;
+  padding-top: 1%;
+  margin-left: -4%;
+  display: flex;
+  align-self: center;
+}
+
+.username {
+  margin-left: 18%;
+  margin-top: 2%;
+  padding-right: 11%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 900;
+  font-size: "15px";
+  display: -webkit-flex;
+  display: flex;
+  text-transform: uppercase;
+}
+
+a.username {
+  font-size: 22px;
+}
+
+.register {
+  margin-top: 2%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 900;
+  font-size: "15px";
+  text-transform: uppercase;
+}
+
+.logout {
+  color: white;
+  background-color: rgb(0, 16, 73);
+  border-radius: 2px;
+  height: 90%;
+  margin-left: 5%;
+  font-size: 20px;
+  padding: 2%;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 15px;
+}
+
+.logoutCont {
+}
+
+.logo {
+  width: 60px;
+  padding: 6%;
+  padding-left: 42%;
+}
+
+.fureverHome {
+  font-family: "Clicker Script", cursive;
+  font-size: 51px;
+  font-weight: 900;
+  color: #4169e1;
+  margin-right: 11%;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.ddlinks {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: #4169e1;
+  padding: 2%;
+}
+
+a.brand_name.active {
+  color: #4169e1;
+}
+
+a {
+  color: 001049;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #001049;
+  decoration: none;
+  text-decoration: none;
+}
+
+.loginCont {
+  margin-top: 2%;
+  margin-left: 25%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 13px;
+}
+
+.dogs {
+  margin-left: 42%;
+}

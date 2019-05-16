@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+.animal_profile_container {
+  background-color: transparent;
+}
+
+.animal_div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60%;
+  background-color: transparent;
+  border: 1px solid white;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.animal_pic_div {
+  background-color: transparent;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+}
+
+.animal_pic {
+  width: 300px;
+  height: auto;
+  display: flex;
+}
+
+.animal_pic:hover img {
+  opacity: 0.8;
+}
+
+.animal_info_div {
+  width: 48%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: auto 0;
+  padding: 5px;
+}
+
+.animal_profile_name {
+  font-size: 50px;
+  font-weight: 900;
+  font-variant-caps: all-small-caps;
+  color: #4169c1;
+  text-shadow: 1px 1px 1px #494b50;
+}
+
+.animal_age_location {
+  display: flex;
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.animal_divider {
+  padding: 0 15px;
+}
+
+.buttons_div {
+  display: flex;
+  padding: 5px 0;
+}
+
+.animal_button {
+  color: white;
+  background-color: #4169c1;
+  width: 125px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 900;
+  font-variant-caps: all-petite-caps;
+}
+
+.animal_description {
+  font-size: 25px;
+  padding: 10px 0;
+}

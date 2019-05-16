@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+.Home {
+  font-size: 18px;
+}
+
+.desHome {
+}
+
+.yard {
+  position: absolute;
+  font-size: 18px;
+}
+
+.yardChoices {
+  margin-top: 2%;
+}
+
+.windows {
+  position: absolute;
+  font-size: 18px;
+}
+
+.windowsChoices {
+  margin-top: 2%;
+}
+
+.allergic {
+  position: absolute;
+  font-size: 18px;
+}
+
+.allergicChoices {
+  margin-top: 2%;
+}
+
+.animalNom {
+  font-size: 18px;
+}
+
+.animalFill {
+}
+
+.spayed {
+  position: absolute;
+  font-size: 18px;
+  margin-top: .5%;
+}
+
+.spayedChoices {
+  margin-top: 2.5%;
+}

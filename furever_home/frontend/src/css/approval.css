@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.formTitle {
+  font-size: 42px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 900;
+  text-shadow: 1px 0px 0px #001049;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.waiting {
+  font-size: 19px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.padding {
+  /* padding-left: 22%; */
+  padding-top: 1%;
+}
+
+.formBorder {
+  border: 1px solid white;
+  width: 50%;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+  border-radius: 3px;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.personalInfo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.householdInfo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-decoration: underline;
+  padding-bottom: 1%;
+  margin-top: 3%;
+}
+
+.references {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-top: 2%;
+}
+
+.namedob {
+  /* margin-right: 26%; */
+}
+
+.address1 {
+  /* margin-right: 21%; */
+}
+
+.address2 {
+}
+
+.phoneEmail {
+  /* margin-right: 22%; */
+  margin-bottom: 1%;
+}
+
+.preButton {
+  margin-left: 47%;
+  margin-top: 3%;
+  font-size: 18px;
+  border-radius: 3px;
+  color: white;
+  background-color: #001049;
+}
+
+.formResponse {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 90%;
+}
+
+.response1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  color: #001049;
+  font-size: 38px;
+  margin-left: 16%;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.response2 {
+  display: flex;
+  justify-content: center;
+  color: #001049;
+  font-size: 23px;
+  margin-left: 9%;
+}
+
+.response3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  color: #001049;
+  font-size: 38px;
+  margin-left: 16%;
+  margin-top: 1%;
+}

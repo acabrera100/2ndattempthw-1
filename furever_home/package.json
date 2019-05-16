@@ -1,0 +1,33 @@
+{
+  "name": "furever_home",
+  "version": "1.0.0",
+  "description": "Adoption socialmedia app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend && npm start",
+    "heroku-postbuild": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianacgaona/furever_home.git"
+  },
+  "author": "A.D.N.T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianacgaona/furever_home/issues"
+  },
+  "homepage": "https://github.com/dianacgaona/furever_home#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-moment": "^0.9.2",
+    "react-responsive-carousel": "^3.1.49",
+    "react-slick": "^0.24.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

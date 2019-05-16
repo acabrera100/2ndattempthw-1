@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Clicker+Script");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.carousel {
+  object-fit: cover;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 13%;
+}
+
+.greeting {
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  color: #4169e1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 6%;
+  text-shadow: turquoise;
+  text-shadow: 3px 3px 3px #fffafab3;
+  font-weight: bolder;
+}
+
+.wallpaper {
+  margin-top: -13%;
+}

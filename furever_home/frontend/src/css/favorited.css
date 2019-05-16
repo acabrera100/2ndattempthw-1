@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.favoritedTitle {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #4169C1;
+}
+
+.favoriteContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.favImgCont {
+  width: 300px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.favoritedPetImg {
+  display: flex;
+}
